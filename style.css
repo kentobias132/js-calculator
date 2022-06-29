@@ -1,0 +1,20 @@
+body{
+    font-size: 30px;
+}
+
+input{
+    text-align: right;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 40px);
+}
