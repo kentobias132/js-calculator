@@ -18,6 +18,6 @@ let Result = () =>{
     try {
         view.value = eval(view.value)
     } catch (error) {
-        alert('input an invalid number  '+error)
+        alert('input a valid operator')
     }
 }
